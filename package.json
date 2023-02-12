@@ -30,6 +30,7 @@
     ]
   },
   "proxy": "http://127.0.0.1:5000",
+  "homepage": "https://albert-165812.github.io/Fontend_input_data/",
   "browserslist": {
     "production": [
       ">0.2%",
