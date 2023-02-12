@@ -29,7 +29,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://127.0.0.1:5000",
+  "proxy": "https://backend-input-data.onrender.com",
   "homepage": "https://albert-165812.github.io/Fontend_input_data/",
   "browserslist": {
     "production": [
