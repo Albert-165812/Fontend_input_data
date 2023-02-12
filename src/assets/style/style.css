@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.mr-16{
+    margin: 16px;
+}
+.mr-x-8{
+    margin: 0 8px;
+}
+.mr-y-8{
+    margin: 8 0px;
+}
+.mr-x-4{
+    margin: 0 4px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
