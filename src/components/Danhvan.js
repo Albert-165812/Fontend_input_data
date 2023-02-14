@@ -15,8 +15,13 @@ function Danhvan() {
                 <span className="mr-x-8">{index}</span>
                 <input type="text" placeholder="Nhập từ: " />
                 <input
-                      type="text"
-                      placeholder="Nhập cách đánh vần từ đã nhập: " />
+                  type="text"
+                  placeholder="Nhập cách đánh vần từ đã nhập: "
+                />
+                <input
+                  type="text"
+                  placeholder="Nhập hình ảnh: "
+                />
               </li>
             );
           })}
@@ -31,6 +36,8 @@ function Danhvan() {
           Thêm nội dung
         </button>
       </div>
+      <span>Lưu</span>
+      <input type="checkbox" id="checkBox_DV"/>
     </div>
   );
 }

@@ -7,9 +7,9 @@ const Timvan = () => {
     const [list] = useState([0]);
   return (
     <div className="row mr-16 item__TV">
-        <header className="title">Tìm vần</header>
+        <header className="title">Ôn tập</header>
         <span className="mr-x-8"></span>
-        <div className="col">
+        {/* <div className="col">
             <ul>
                 {
                     list_1.map(index=>{
@@ -38,7 +38,7 @@ const Timvan = () => {
                 </button>
                 </li>
             </ul>
-        </div> 
+        </div>  */}
         <div className="col">
         <ul>
           {list.map((index) => {
@@ -46,8 +46,9 @@ const Timvan = () => {
               <li className={"item__TV"} key={index}>
                 <span className="mr-x-8">{index}</span>
                 <span>
-                    <input type="text" placeholder="Nhập từ: " />
                     <input type="text" className='mr-x-8' placeholder="Nhập link ảnh: " />
+                    <input type="text" placeholder="Nhập tên bài học: " />
+                    <input type="text" placeholder="Nhập từ của hình: " />
                 </span>
               </li>
             );
@@ -63,6 +64,8 @@ const Timvan = () => {
           Thêm nội dung
         </button>
       </div>
+      <span>Lưu</span>
+      <input type="checkbox" id="checkBox_OT"/>
     </div>
   )
 }

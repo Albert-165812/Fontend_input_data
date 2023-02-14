@@ -29,6 +29,8 @@ function Lamquen() {
           Thêm nội dung
         </button>
       </div>
+      <span>Lưu</span>
+      <input type="checkbox" id="checkBox_LQ" />
     </div>
   );
 }
